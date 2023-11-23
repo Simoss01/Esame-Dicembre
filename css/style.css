@@ -1,0 +1,162 @@
+html {
+    font-size: 24px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header {
+    display: flex;
+    background-image: url('../immagini/2.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 45%;
+}
+
+header p {
+    margin: 0;
+}
+
+header nav ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+header h2 {
+    font-weight: normal;
+    font-style: italic;
+    position: absolute;
+    bottom: 40px;
+    left: 600px;
+}
+
+header h3 {
+    position: absolute;
+    font-weight: normal;
+    font-style: italic;
+    bottom: 0;
+    left: 710px;
+}
+
+main {
+    margin: 0px auto;
+}
+
+main div.card {
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+main div.card img {
+    object-fit: fill;
+    height: auto;
+    width: 100%;
+}
+
+main div.cardvertical {
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+main div.cardvertical img {
+    object-fit: fill;
+    height: auto;
+    width: 100%;
+}
+
+main div.card2 {
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+main div.card2 img {
+    object-fit: fill;
+    height: auto;
+    width: 100%;
+}
+
+main div.cardvertical2 {
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+main div.cardvertical2 img {
+    object-fit: fill;
+    height: auto;
+    width: 100%;
+}
+
+main div.card3 {
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+main div.card3 img {
+    object-fit: fill;
+    height: auto;
+    width: 100%;
+}
+
+footer{
+    padding-top: 5%;
+    color:  rgb(197, 197, 197);
+}
+
+footer h3 {
+    line-height: 1;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-weight: lighter;
+    font-style: italic;
+
+}
+
+footer img {
+    width: 20px;
+    height: 20px;
+}
+
+footer div.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 5%;
+}
+
+footer nav ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}

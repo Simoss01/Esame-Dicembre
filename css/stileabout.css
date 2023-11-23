@@ -1,0 +1,90 @@
+html {
+    font-size: 24px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: rgb(197, 197, 197);
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header p {
+    margin: 0;
+}
+
+header nav ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+main h3 {
+    text-align: center;
+    padding-top: 5%;
+}
+
+main p {
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 30%;
+    padding-right: 25%;
+}
+
+main div.card {
+    padding-top: 10%;
+    padding-left: 30%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0px;
+}
+
+main div.card img {
+    object-fit: fill;
+    height: auto;
+    width: 60%;
+}
+
+footer{
+    padding-top: 5%;
+}
+
+footer img {
+    width: 20px;
+    height: 20px;
+}
+
+footer div.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 5%;
+}
+
+footer nav ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
