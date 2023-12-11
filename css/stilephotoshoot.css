@@ -146,7 +146,7 @@ main .testo {
 }
 
 main .testo h2 {
-    font-style: italic;
+    font-family: serif;
 }
 
 main .testo h3 {
@@ -166,7 +166,7 @@ main div.card {
 }
 
 main div.scritte h3 {
-    font-style: italic;
+    font-family: serif;
 }
 
 main div.card img {
