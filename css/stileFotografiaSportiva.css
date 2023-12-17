@@ -137,6 +137,14 @@ header nav ul {
       padding: 10px 0;
       margin: 0;
      }
+    
+    main div.testo h3 {
+     font-weight: lighter;
+     line-height: 1.2;
+     max-width: 100%;
+     padding-right: 0%;
+     font-size: 24px;
+ }
   }
 
 main .testo {
@@ -156,13 +164,13 @@ main .testo h3 {
 }
 
 main div.card {
-    padding: 8%;
-    padding-top: 0%;
-    padding-bottom: 0%;
-    margin: 40px auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 10px;
+  padding: 8%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  margin: 40px auto 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
 }
 
 main div.scritte h3 {
@@ -181,12 +189,12 @@ main div.card img {
 }
 
 main div.cardvertical {
-    padding: 8%;
-    padding-top: 0%;
-    margin: 40px auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 10px;
+  padding: 8%;
+  padding-top: 0%;
+  margin: 10px auto 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
 }
 
 main div.cardvertical img {
