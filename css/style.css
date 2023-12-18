@@ -116,6 +116,7 @@ header nav ul {
       top: 0;
       left: 0;
       opacity: 0;
+      font-size: 0px;
       background-color: #000000;
       width: 100%;
       height: 100%;
@@ -125,6 +126,7 @@ header nav ul {
   
     input[type="checkbox"]:checked ~ nav ul {
       opacity: 100;
+      font-size: 24px;
     }
   
     .hamburger-lines {
@@ -141,6 +143,18 @@ header nav ul {
       position: relative;
       padding: 10px 0;
       margin: 0;
+     }
+
+     header h2{
+      font-size: 20px;
+     }
+
+     header p{
+      font-size: 20px;
+     }
+
+     footer p{
+      font-size: 20px;
      }
   }
   
@@ -160,10 +174,10 @@ main {
 }
 
 main div.card {
-    margin: 40px auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 10px;
+  margin: 40px auto 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
 }
 
 main div.card img {
@@ -172,10 +186,10 @@ main div.card img {
 }
 
 main div.cardvertical {
-    margin: 40px auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 10px;
+  margin: 10px auto 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
 }
 
 main div.cardvertical img {
@@ -184,10 +198,10 @@ main div.cardvertical img {
 }
 
 main div.card2 {
-    margin: 40px auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 10px;
+  margin: 10px auto 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
 }
 
 main div.card2 img {
@@ -196,10 +210,10 @@ main div.card2 img {
 }
 
 main div.cardvertical2 {
-    margin: 40px auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 10px;
+  margin: 10px auto 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
 }
 
 main div.cardvertical2 img {
@@ -208,10 +222,10 @@ main div.cardvertical2 img {
 }
 
 main div.card3 {
-    margin: 40px auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 10px;
+  margin: 10px auto 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
 }
 
 main div.card3 img {
@@ -233,24 +247,9 @@ footer div.motto p {
 
 }
 
-footer img {
-    width: 20px;
-    height: 20px;
-}
-
 footer div.foot {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding-left: 1%;
-    padding-right: 1%;
     padding-top: 5%;
-}
-
-footer nav ul {
-    margin:0;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    gap: 20px;
 }

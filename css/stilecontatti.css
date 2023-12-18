@@ -110,6 +110,7 @@ header nav ul {
       position: absolute;
       top: 0;
       left: 0;
+      font-size: 0px;
       opacity: 0;
       background-color: #000000;
       width: 100%;
@@ -120,6 +121,7 @@ header nav ul {
   
     input[type="checkbox"]:checked ~ nav ul {
       opacity: 100;
+      font-size: 24px;
     }
   
     .hamburger-lines {
@@ -136,6 +138,14 @@ header nav ul {
       position: relative;
       padding: 10px 0;
       margin: 0;
+     }
+
+     footer p{
+      font-size: 20px;
+     }
+
+     header p{
+      font-size: 20px;
      }
   }
 
@@ -172,24 +182,9 @@ footer{
     padding-top: 5%;
 }
 
-footer img {
-    width: 20px;
-    height: 20px;
-}
-
 footer div.foot {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding-left: 1%;
-    padding-right: 1%;
     padding-top: 5%;
-}
-
-footer nav ul {
-    margin:0;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    gap: 20px;
 }
