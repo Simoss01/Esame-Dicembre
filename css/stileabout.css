@@ -110,7 +110,7 @@ header nav ul {
       position: absolute;
       top: 0;
       left: 0;
-      font-size: 0px;
+      visibility: hidden;
       opacity: 0;
       background-color: #000000;
       width: 100%;
@@ -125,7 +125,7 @@ header nav ul {
 
     input[type="checkbox"]:checked ~ nav ul {
       opacity: 100;
-      font-size: 24px;
+      visibility: visible;
     }
   
     .hamburger-lines {
