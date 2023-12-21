@@ -64,7 +64,7 @@ header nav ul {
     height: 4px;
     width: 100%;
     border-radius: 10px;
-    background: #fff;
+    background: rgb(197, 197, 197);
   }
   
   .hamburger-lines .line1 {
